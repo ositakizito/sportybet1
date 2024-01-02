@@ -6,7 +6,7 @@ export default function Home() {
     const [data, setData] = useState([])
 
     useEffect(() => {
-        axios.get("http://localhost:3001/")
+        axios.get("https://sportybet12.vercel.app/")
             .then(res => setData(res.data))
             .catch(err => console.log(err))
     }, [])
