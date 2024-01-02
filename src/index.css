@@ -274,7 +274,29 @@ form {
     width: 100%;
     text-align: center;
 }
+@media only screen and (max-width: 458px){
+form .inputType {
+    padding: 20px 8px;
+    margin: 5px;
+    border: none;
+    outline: none;
+    flex-wrap: wrap; 
+    justify-content: center;
+},
+    
+form .inputType::placeholder {
+    color: var(--gray);
+},
 
+form .inputType.btn {
+    color: var(--white);
+    border: none;
+    width: 100%;
+    font-size: large;
+    background-color: var(--bghead);
+}
+
+}
 form .inputType {
     padding: 20px 8px;
     margin: 5px;
@@ -291,7 +313,7 @@ form .inputType::placeholder {
 form .inputType.btn {
     color: var(--white);
     border: none;
-    width: 90%;
+    width: 100%;
     font-size: large;
     background-color: var(--bghead);
 }
