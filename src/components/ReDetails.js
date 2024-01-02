@@ -28,7 +28,7 @@ export default function RunDetails() {
   const navigate = useNavigate();
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post('http://localhost:3001/ticket', values)
+    axios.post('https://sportweb.onrender.com/ticket', values)
       .then(res => {
         navigate("/")
       })
