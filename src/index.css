@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root {
+    --bghead: #e41827;
+    --white: #fff;
+    --gren: #0D9737;
+    --greenText: #32CE62;
+    --gray: #9CA0AB;
+    --bg: #f0f0f0;
+    --bg2: #181820;
+    --line: rgb(80, 79, 79);
+    --black: #000;
+}
+
+body {
+    background-color: var(--bg);
+}
+
+.header {
+    background-color: var(--bghead);
+    padding: 15px 8px;
+    display: flex;
+    color: var(--white);
+    justify-content: space-between;
+    font-size: 18px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.header .Hicon {
+    display: flex;
+}
+
+.header .Hicon .bck {
+    margin-top: 2px;
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+.header .Hicon .bck1 {
+    margin-left: 10px;
+}
+
+.header .Hicon.hm {
+    margin-right: 5px;
+}
+
+.header2 {
+    padding: 10px 8px;
+    color: var(--gray);
+    width: 100%;
+    margin: 0 auto;
+    background-color: var(--bg2);
+}
+
+.header2.d3 {
+    height: unset;
+}
+
+.header2 .headcover {
+    margin: 0 7px;
+}
+
+.header2 .cover {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 14px;
+    justify-content: space-between;
+}
+
+.header2 .cover .tid.bold2 {
+    color: var(--gren);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.header2 .cover.two {
+    margin-top: 8px;
+}
+
+.cover.two.tp {
+    margin-top: 12px;
+}
+
+.header2 .cover.two .tid.bold {
+    color: #fff;
+    font-size: 17px;
+}
+
+.header2 .cover.two .tid.bold.won {
+    color: var(--greenText);
+    font-size: 17px;
+}
+
+.header2 .cover.two .tid.bold.won i {
+    margin-right: 7px;
+}
+
+.header2 .line {
+    width: 100%;
+    height: 1px;
+    background-color: var(--line);
+}
+
+.header2 .line.l2 {
+    width: 100%;
+    height: 1px;
+    margin-top: 15px;
+    background-color: var(--line);
+}
+
+.header2 .cover .tid.bold3 {
+    color: var(--white);
+    font-size: 17px;
+}
+
+.header2 .cover .tid.bold4 {
+    color: var(--white);
+    font-size: 15px;
+}
+
+.header2 .book {
+    display: flex;
+    justify-content: space-between;
+    color: var(--white);
+
+}
+
+.header2 .bookk img {
+    width: 100%;
+    border: none;
+    margin-top: 2px;
+}
+
+.header2 .book .code {
+    margin: 13px 5px;
+}
+
+
+.header2 .book .code1 {
+    background-color: var(--greenText);
+    color: var(--white);
+    padding: 8px 12px;
+    margin: 8px 5px;
+    font-size: 13px;
+}
+
+.header2 .book span {
+    margin-left: 1px;
+}
+
+.header2 .book span i {
+    font-size: 14px;
+}
+
+.header3 {
+    background-color: var(--white);
+    width: 100%;
+    border-bottom: 1px solid var(--bg);
+}
+
+.header3 .heady {
+    display: flex;
+    padding: 15px 5px;
+    justify-content: space-between;
+}
+
+.header3 .heady .hd {
+    width: 20%;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: left;
+}
+
+.header3 .heady .hd.h {
+    font-weight: 550;
+
+}
+
+.header3 .heady .hd i {
+    background-color: var(--greenText);
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: var(--white);
+    font-size: 12px;
+    width: 25px;
+}
+
+.header3 .heady .hdcontent {
+    width: 80%;
+}
+
+.header3 .heady .hdcontent .list {
+    padding: 5px;
+}
+
+.header3 .heady .hdcontent .list p span.sc {
+    color: var(--black);
+    font-weight: 550;
+}
+
+.header3 .heady .hdcontent .list .gy {
+    padding: 5px;
+    background-color: var(--bg);
+    color: var(--gray);
+}
+
+.header3 .heady .hdcontent .list .gy p {
+    margin-left: 5px;
+}
+
+.header3 .heady .hdcontent .list .gy p span.cs {
+    color: var(--black);
+}
+
+.header3 .heady .hdcontent .list .gy p.pck {
+    margin-left: 25px;
+}
+
+.header3 .heady .hdcontent .list .gy p.pck i {
+    color: var(--gren);
+}
+
+.header3 .heady .hdcontent .list .gy p.pck span.pck1 {
+    color: var(--black);
+}
+
+.header3 .heady .hdcontent .list p.chart {
+    color: var(--greenText);
+}
+
+.header3 .heady .hdcontent .list .game {
+    color: var(--gray);
+}
+
+.bets {
+    padding: 5px;
+    background-color: var(--white);
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.bets .bt {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.bets .bt.cn {
+    display: flex;
+    justify-content: center;
+}
+
+.for .run {
+    text-align: center;
+    margin: 10px;
+}
+
+form {
+    margin: 10px auto;
+    background-color: var(--bg);
+    width: 100%;
+    text-align: center;
+}
+
+form .inputType {
+    padding: 25px 8px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+form .inputType::placeholder {
+    color: var(--gray);
+}
+
+form .inputType.btn {
+    color: var(--white);
+    border: none;
+    width: 90%;
+    font-size: large;
+    background-color: var(--bghead);
+}
+
+.table {
+    padding: 10px;
+
+}
+
+.table .create {
+    margin-top: 10px;
+    padding: 10px 0;
+    font-size: 14px;
+    border: none;
+    margin-right: 5px;
+    background-color: var(--gren);
+    color: var(--white);
+    padding: 10px 8px;
+}
+
+.table table {
+    width: 20%;
+    margin-top: 20px;
+    border-collapse: separate;
+}
+
+.table table th,
+td {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}

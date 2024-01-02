@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1052" height="904" viewBox="0 0 1052 904">
+  <g id="Group_5" data-name="Group 5" transform="translate(-1279 -181)">
+    <path id="Rectangle_1" data-name="Rectangle 1" d="M0,0H714a0,0,0,0,1,0,0V374A256,256,0,0,1,458,630H236A236,236,0,0,1,0,394V0A0,0,0,0,1,0,0Z" transform="translate(1448 181)" fill="#32ce62"/>
+    <g id="Group_2" data-name="Group 2" transform="translate(-581.42 81.343)">
+      <path id="Path_1" data-name="Path 1" d="M106.724,0,258.312,391.274,106.724,273.05-49.945,391.274Z" transform="translate(2281.878 181)"/>
+      <path id="Polygon_1" data-name="Polygon 1" d="M197,0,394,165H0Z" transform="translate(2583.42 458.657) rotate(180)"/>
+    </g>
+    <g id="Group_3" data-name="Group 3" transform="translate(-193 -32)">
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="169" height="106" transform="translate(2355 262)" fill="#32ce62"/>
+      <rect id="Rectangle_4" data-name="Rectangle 4" width="89" height="106" transform="translate(2355 498)" fill="#32ce62"/>
+      <path id="Rectangle_3" data-name="Rectangle 3" d="M0,0H102a0,0,0,0,1,0,0V134A102,102,0,0,1,0,236H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(2422 368)" fill="#32ce62"/>
+    </g>
+    <g id="Group_4" data-name="Group 4" transform="translate(1279 230)">
+      <rect id="Rectangle_2-2" data-name="Rectangle 2" width="169" height="106" fill="#32ce62"/>
+      <rect id="Rectangle_4-2" data-name="Rectangle 4" width="89" height="106" transform="translate(80 236)" fill="#32ce62"/>
+      <path id="Rectangle_3-2" data-name="Rectangle 3" d="M0,0H102a0,0,0,0,1,0,0V236a0,0,0,0,1,0,0h0A102,102,0,0,1,0,134V0A0,0,0,0,1,0,0Z" transform="translate(0 106)" fill="#32ce62"/>
+    </g>
+    <rect id="Rectangle_5" data-name="Rectangle 5" width="155" height="175" transform="translate(1728 811)" fill="#32ce62"/>
+    <path id="Path_2" data-name="Path 2" d="M0,0H438l66.344,126H-76.1Z" transform="translate(1591 959)" fill="#32ce62"/>
+  </g>
+</svg>
