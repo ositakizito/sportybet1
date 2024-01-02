@@ -8,7 +8,7 @@ export default function Run() {
     const { id } = useParams();
     const [tick, setTick] = useState([]);
     useEffect(() => {
-        axios.get('http://localhost:3001/run/' + id).then(res => {
+        axios.get('https://sportweb.onrender.com/run/' + id).then(res => {
             setTick(res.data[0]);
         }).catch(err => console.log(err))
     })
