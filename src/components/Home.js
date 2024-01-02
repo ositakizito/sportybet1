@@ -6,13 +6,13 @@ export default function Home() {
     const [data, setData] = useState([])
 
     useEffect(() => {
-        axios.get("https://sportybet12.vercel.app/")
+        axios.get("https://sportweb.onrender.com/")
             .then(res => setData(res.data))
             .catch(err => console.log(err))
     }, [])
 
     const handleDelete = (id) =>{
-        axios.delete("http://localhost:3001/delete/" + id)
+        axios.delete("https://sportweb.onrender.com/" + id)
         .then(res => {
           window.location.reload()
         })
