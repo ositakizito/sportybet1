@@ -12,9 +12,9 @@ export default function Home() {
     }, [])
 
     const handleDelete = (id) =>{
-        axios.delete("https://sportweb.onrender.com/" + id)
+        axios.delete("https://sportweb.onrender.com/delete/" + id)
         .then(res => {
-          document.location.reload(true)
+          window.location.reload()
         })
         .catch(err => console.log(err))
     }
