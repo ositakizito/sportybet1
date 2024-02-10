@@ -53,7 +53,7 @@ export default function Run() {
                     </div>
                     <div className="cover">
                         <div className="tid">Pot. Win</div>
-                        <div className="tid bold4">{tick.PotWin}</div>
+                        <div className="tid bold4">{tick.PotWin} .00</div>
                     </div>
                     <div className="line l2"></div>
                     <div className="book">
