@@ -19,7 +19,7 @@ export default function Run() {
                     <Link to="/" style={{ color: "#fff" }}> <div className="bck"><i className="fa fa-arrow-left"></i></div></Link>
                     <div className="bck1">Ticket Details</div>
                 </div>
-                <div className="Hicon hm"><img src={House} width='24px' alt="" /></div>
+                <div className="Hicon hm"><img src={House} width='22px' alt="" /></div>
             </div>
             {/* here started */}
             <div className="header2 d3">
