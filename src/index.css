@@ -186,7 +186,7 @@ body {
 }
 
 .header3 .heady .hd i {
-    background-color: var(--greenText);
+    background-color: var(--gren);
     height: 25px;
     display: flex;
     justify-content: center;
