@@ -22,7 +22,7 @@ export default function Won() {
                 <Link to="/" style={{color: "#fff"}}> <div className="bck"><i className="fa fa-arrow-left"></i></div></Link>
                 <div className="bck1">Ticket Details</div>
             </div>
-            <div className="Hicon hm"><img src={House} alt="" width='24px' style={{backgroundColor: ""}}/></div>
+            <div className="Hicon hm"><img src={House} alt="" width='22px' style={{backgroundColor: ""}}/></div>
          </div>
          <div className="header2">
                 <div className="headcover">
