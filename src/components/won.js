@@ -37,13 +37,13 @@ export default function Won() {
                     </div>
                     <div className="cover two">
                         <div className="tid">Total Return</div>
-                        <div className="tid bold2">{tick.PotWin}</div>
+                        <div className="tid bold2">{tick.PotWin} .00</div>
                     </div>
                     <div className="line"></div>
 
                     <div className="cover two tp">
                         <div className="tid">Total Stake</div>
-                        <div className="tid bold3">{tick.TotalStake}</div>
+                        <div className="tid bold3">{tick.TotalStake} .00</div>
                     </div>
                     <div className="cover">
                         <div className="tid">Total Odds</div>
